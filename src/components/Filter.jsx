@@ -1,8 +1,9 @@
+import { InputList, Label } from './App.styled';
 export const Filter = ({ value, onChange }) => {
   return (
     <>
-      <label htmlFor="filter">Find your contacts by name</label>
-      <input
+      <Label htmlFor="filter">Find your contacts by name</Label>
+      <InputList
         type="text"
         name="filter"
         pattern="^[a-zA-Zа-яА-Я]+(([' \-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
