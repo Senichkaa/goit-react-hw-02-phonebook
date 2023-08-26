@@ -41,6 +41,7 @@ export class ContactForm extends Component {
             required
             onChange={this.handleChange}
             value={this.state.name}
+            placeholder="Write a name"
           />
         </label>
 
@@ -54,6 +55,7 @@ export class ContactForm extends Component {
             required
             onChange={this.handleChange}
             value={this.state.number}
+            placeholder="Write a number"
           />
         </label>
 

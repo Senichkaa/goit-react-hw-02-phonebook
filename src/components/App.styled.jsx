@@ -30,3 +30,8 @@ export const Label = styled.label`
 export const Header = styled.h2`
   margin-left: 15px;
 `;
+export const DeleteButton = styled.button`
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 5px 5px;
+`;

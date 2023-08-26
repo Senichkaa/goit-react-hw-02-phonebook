@@ -9,6 +9,7 @@ export const Filter = ({ value, onChange }) => {
         pattern="^[a-zA-Zа-яА-Я]+(([' \-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
         value={value}
         onChange={onChange}
+        placeholder="Find your contact"
       />
     </>
   );

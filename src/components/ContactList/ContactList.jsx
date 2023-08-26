@@ -1,3 +1,5 @@
+import { DeleteButton } from '../App.styled';
+
 export const ContactList = ({ options, onDelete }) => {
   return (
     <div>
@@ -5,7 +7,7 @@ export const ContactList = ({ options, onDelete }) => {
         {options.map(({ id, name, number }) => (
           <li key={id}>
             {name}: {number}
-            <button onClick={() => onDelete(id)}>Delete</button>
+            <DeleteButton onClick={() => onDelete(id)}>Delete</DeleteButton>
           </li>
         ))}
       </ul>
